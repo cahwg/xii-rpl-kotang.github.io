@@ -1,0 +1,221 @@
+body {
+  background: linear-gradient(to right,
+      #131010, #1A1A1D, #1D1616);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right,
+      #131010, #1A1A1D, #1D1616);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  z-index: 1050;
+}
+
+
+.btn-instagram {
+  background: linear-gradient(to right,
+      #833ab4, #fd1d1d, #fcb045);
+  color: white;
+  border: none;
+  transition: background 0.5s ease;
+  /* Add transition for background */
+}
+
+.btn-sm-custom {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+
+.navbar {
+  background: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(10px);
+}
+
+
+.btn-instagram:hover {
+  background: linear-gradient(to right,
+      #fcb045, #fd1d1d, #833ab4);
+  color: white;
+}
+
+.home {
+  color: white;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgb(0, 0, 0)), url('../img/foto1\ \(3\).jpeg') center/cover no-repeat;
+  text-align: center;
+}
+
+.color-red {
+  color: #ff1010;
+}
+
+.galery {
+  background: linear-gradient(to right,
+      #131010, #1A1A1D, #1D1616);
+
+}
+
+.hover-underline:hover {
+  border-bottom-width: 2px !important;
+}
+
+.footer {
+  background: linear-gradient(to right,
+      #131010, #1A1A1D, #1D1616);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: red;
+  border-bottom: solid 2px red;
+}
+
+.solid:hover {
+  color: tomato;
+}
+
+#sapa {
+  display: inline-block;
+  animation: wave-hello 1.5s ease infinite;
+
+}
+
+.achievement {
+  background: linear-gradient(to right,
+      #131010, #1A1A1D, #1D1616);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.solid {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: linear-gradient(45deg, #00ff00, #00ffff, #7f00ff);
+  background-size: 300%;
+  /* Perbaiki supaya gradasi bisa bergerak */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 4s infinite linear;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Animasi Gradient Bergerak */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes wave-hello {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  20% {
+    transform: rotate(0deg);
+  }
+
+  40% {
+    transform: rotate(20deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  80% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.anggota-body {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.human {
+  font-size: 1.5rem;
+}
+
+.address {
+  font-size: 2rem;
+}
+
+.text-animated-1 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .btn-instagram {
+    display: none !important;
+  }
+
+  .subscribe {
+    display: none !important;
+  }
+
+  .home-main {
+    text-align: center;
+  }
+
+  .info-tkr {
+    margin: 0;
+  }
+}
