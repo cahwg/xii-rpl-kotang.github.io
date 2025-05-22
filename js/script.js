@@ -1,14 +1,14 @@
 const data = [
   { nama: "Abiseka Zara Suprada", img: "abi.jpg" },
-  { nama: "Agil Muzaki Ahmad", img: "human (13).jpeg" },
-  { nama: "Asrul Syahrian", img: "andika.jpeg" },
-  { nama: "Fandi Christian Asyer", img: "human (22).jpeg" },
-  { nama: "Haddad Razib Pangestu", img: "bawan (2).jpeg" },
-  { nama: "Hasan Rizqi Abdur Rohman", img: "human (23).jpeg" },
-  { nama: "Ibnu Firmansyah", img: "human (9).jpeg" },
-  { nama: "M. Fadli Juliansyah", img: "human (12).jpeg" },
-  { nama: "M. Fardhan Syarif", img: "human (21).jpeg" },
-  { nama: "Noval Riansyah Sudar", img: "human (10).jpeg" },
+  { nama: "Agil Muzaki Ahmad", img: "agil.jpg" },
+  { nama: "Asrul Syahrian", img: "asrul.jpg" },
+  { nama: "Fandi Christian Asyer", img: "fandi.jpg" },
+  { nama: "Haddad Razib Pangestu", img: "rajib.jpg" },
+  { nama: "Hasan Rizqi Abdur Rohman", img: "hasan,jpg" },
+  { nama: "Ibnu Firmansyah", img: "ibnu.jpg" },
+  { nama: "M. Fadli Juliansyah", img: "fadli.jpg" },
+  { nama: "M. Fardhan Syarif", img: "fardhan.jpg" },
+  { nama: "Noval Riansyah Sudar", img: "noval.jpg" },
 ];
 
 
