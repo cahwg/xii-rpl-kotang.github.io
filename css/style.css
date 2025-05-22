@@ -51,11 +51,14 @@ body {
 .home {
   color: white;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgb(0, 0, 0)), url('../img/foto1\ \(3\).jpeg') center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgb(0, 0, 0)), url('../img/bg-homs.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   text-align: center;
 }
 
-.color-red {
+.color-red {  
   color: #ff1010;
 }
 
